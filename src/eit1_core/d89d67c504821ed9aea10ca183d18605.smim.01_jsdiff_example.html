@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+                                                                                                                                                                                                                           <meta http-equiv="content-type" content="text/html; charset=utf-8">                                                                                                                                                                                                                                        <title>Page Title</title>
+    </head>
+    <body>
+        <pre id="display"></pre>
+        <div id="destination-elem-id"></div>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/github.min.css">
+        <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/diff2html/2.11.2/diff2html.css">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/languages/xml.min.js"></script>
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/diff2html/2.11.2/diff2html.js"></script>
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/diff2html/2.11.2/diff2html-ui.js"></script>
+        
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jsdiff/4.0.1/diff.js"></script>
+        <script>
+        function hereDoc(f) {
+        return f.toString().
+            replace(/^[^\/]+\/\*!?/, '').
+            replace(/\*\/[^\/]+$/, '');
+        }
+        var span = null;
+        var display = document.getElementById('display');
+        var fragment = document.createDocumentFragment();
+        
+        var oldStr = hereDoc(function() {/*!
+&oldStr&
+*/});
+
+        var newStr = hereDoc(function() {/*!
+&newStr&
+*/});
+
+        var diff = Diff.createTwoFilesPatch("File1", "File1", oldStr, newStr, "oldHeader", "newHeader" ,{ context: 100 });
+        
+        // span = document.createElement('span');
+        // span.appendChild(document
+        //     .createTextNode(diff));
+        // fragment.appendChild(span);
+        // display.appendChild(fragment);
+        
+        var diffHtml = Diff2Html.getPrettyHtml(
+            diff,
+          {inputFormat: 'diff', showFiles: true, matching: 'lines', outputFormat: 'side-by-side'}
+        );
+
+        $(document).ready(function() {
+            var diff2htmlUi = new Diff2HtmlUI({diff: diff});
+            diff2htmlUi.draw('#destination-elem-id', {inputFormat: 'diff', showFiles: true, matching: 'lines', outputFormat: 'side-by-side'});
+            diff2htmlUi.highlightCode('#destination-elem-id');
+        });
+        </script>
+    </body>
+</html>
+                                                                                                                                                                                                                        

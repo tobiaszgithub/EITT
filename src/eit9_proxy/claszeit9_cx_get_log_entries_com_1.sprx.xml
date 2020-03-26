@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>CLAS</OBJECT>
+     <OBJ_NAME>ZEIT9_CX_GET_LOG_ENTRIES_COM_1</OBJ_NAME>
+     <OBJECT_M>CLAS</OBJECT_M>
+     <OBJ_NAME_M>ZEIT9_CX_GET_LOG_ENTRIES_COM_1</OBJ_NAME_M>
+     <HASH_ID>A9075C38885AB45388A9692489B9943FD57B3BD1</HASH_ID>
+     <ID>&lt;message&gt; getLogEntries_com.sap.aii.mdt.server.adapterframework.ws.InvalidKeyException_doc urn:AdapterMessageMonitoringWsd/AdapterMessageMonitoringVi urn:AdapterMessageMonitoringWsd/AdapterMessageMonitoringVi</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>message</IFR_TYPE>
+     <IFR_NAME>getLogEntries_com.sap.aii.mdt.server.adapterframework.ws.InvalidKeyException_doc</IFR_NAME>
+     <IFR_NSPCE>urn:AdapterMessageMonitoringWsd/AdapterMessageMonitoringVi</IFR_NSPCE>
+     <IFR_GNSPCE>urn:AdapterMessageMonitoringWsd/AdapterMessageMonitoringVi</IFR_GNSPCE>
+     <GEN_VERS>0006</GEN_VERS>
+     <PREFIX>ZEIT9_</PREFIX>
+     <CATEGORY>ifmfaultm</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>urn:AdapterMessageMonitoringWsd/AdapterMessageMonitoringVi</X-ML_NSPCE>
+     <X-ML_NAME>getLogEntries_com.sap.aii.mdt.server.adapterframework.ws.InvalidKeyException</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>CLAS</OBJECT>
+     <OBJ_NAME>ZEIT9_CX_GET_LOG_ENTRIES_COM_1</OBJ_NAME>
+     <OBJECT1>ATTR</OBJECT1>
+     <OBJ_NAME1>ERROR_PART</OBJ_NAME1>
+     <OBJECT2>ATTR</OBJECT2>
+     <OBJ_NAME2>ERROR_PART</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZEIT9_INVALID_KEY_EXCEPTION</OBJ_NAME_R>
+     <ID>&lt;part&gt; errorPart &lt;message&gt; getLogEntries_com.sap.aii.mdt.server.adapterframework.ws.InvalidKeyException_doc urn:AdapterMessageMonitoringWsd/AdapterMessageMonitoringVi urn:AdapterMessageMonitoringWsd/AdapterMessageMonitoringVi</ID>
+     <IFR_TYPE>part</IFR_TYPE>
+     <IFR_NAME>errorPart</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>ATTR</R3_TYPE>
+     <R3_NAME>ERROR_PART</R3_NAME>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>CLAS</OBJECT>
+     <OBJ_NAME>ZEIT9_CX_GET_LOG_ENTRIES_COM_1</OBJ_NAME>
+     <OBJECT1>CLAS</OBJECT1>
+     <OBJ_NAME1>ZEIT9_CX_GET_LOG_ENTRIES_COM_1</OBJ_NAME1>
+     <OBJECT2>CLAS</OBJECT2>
+     <OBJ_NAME2>ZEIT9_CX_GET_LOG_ENTRIES_COM_1</OBJ_NAME2>
+     <ID>&lt;message&gt; getLogEntries_com.sap.aii.mdt.server.adapterframework.ws.InvalidKeyException_doc urn:AdapterMessageMonitoringWsd/AdapterMessageMonitoringVi urn:AdapterMessageMonitoringWsd/AdapterMessageMonitoringVi</ID>
+     <IFR_TYPE>message</IFR_TYPE>
+     <IFR_NAME>getLogEntries_com.sap.aii.mdt.server.adapterframework.ws.InvalidKeyException_doc</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <IFR_FAULT>X</IFR_FAULT>
+     <R3_TYPE>CLAS</R3_TYPE>
+     <R3_NAME>ZEIT9_CX_GET_LOG_ENTRIES_COM_1</R3_NAME>
+     <R3_TEXT>Proxy Class (generated)</R3_TEXT>
+     <CATEGORY>ifmfaultm</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

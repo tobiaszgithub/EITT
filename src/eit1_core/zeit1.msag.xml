@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZEIT1</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>EITT: Message class for core component</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEIT1</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Parsing error - &amp;1&amp;2&amp;3&amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEIT1</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Could not parse ico response message</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEIT1</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Could not get message from message monitor. Msg id: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEIT1</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Config. error - create ICO RFC dest.  and fill ZTEIT_SYSTEMS with &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEIT1</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Config. error - missing config in table ZTEIT_INTERFACES for &amp;1 &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEIT1</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Execution of &amp;1 test case id.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEIT1</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Config. error - missing config in table ZTEIT_SYSTEMS for &amp;1</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZDE_EITT_MSGGUID</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>ZDO_EITT_MSGGUID</DOMNAME>
+    <HEADLEN>12</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>12</SCRLEN2>
+    <SCRLEN3>12</SCRLEN3>
+    <DDTEXT>EITT: Message Guid</DDTEXT>
+    <REPTEXT>Message Guid</REPTEXT>
+    <SCRTEXT_S>Message Gu</SCRTEXT_S>
+    <SCRTEXT_M>Message Guid</SCRTEXT_M>
+    <SCRTEXT_L>Message Guid</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZEIT9_ADMIN_ACTION_RESULT</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZEIT9_ADMIN_ACTION_RESULT</OBJ_NAME_M>
+     <HASH_ID>6AE85A0EBCEDCB5DF6330B75AD26A09ABB196B3C</HASH_ID>
+     <ID>&lt;type&gt; AdminActionResult urn:com.sap.aii.mdt.server.adapterframework.ws urn:com.sap.aii.mdt.server.adapterframework.ws</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>AdminActionResult</IFR_NAME>
+     <IFR_NSPCE>urn:com.sap.aii.mdt.server.adapterframework.ws</IFR_NSPCE>
+     <IFR_GNSPCE>urn:com.sap.aii.mdt.server.adapterframework.ws</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZEIT9_</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>urn:com.sap.aii.mdt.server.adapterframework.ws</X-ML_NSPCE>
+     <X-ML_NAME>AdminActionResult</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZEIT9_ADMIN_ACTION_RESULT</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>RESULT_CODE</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>RESULT_CODE</OBJ_NAME2>
+     <ID>&lt;element&gt; {urn:com.sap.aii.mdt.server.adapterframework.ws}resultCode &lt;type&gt; AdminActionResult urn:com.sap.aii.mdt.server.adapterframework.ws urn:com.sap.aii.mdt.server.adapterframework.ws</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>resultCode</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_NILLABLE>X</IFR_NILLABLE>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>RESULT_CODE</R3_NAME>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZEIT9_ADMIN_ACTION_RESULT</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>RESULT_TEXT</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>RESULT_TEXT</OBJ_NAME2>
+     <ID>&lt;element&gt; {urn:com.sap.aii.mdt.server.adapterframework.ws}resultText &lt;type&gt; AdminActionResult urn:com.sap.aii.mdt.server.adapterframework.ws urn:com.sap.aii.mdt.server.adapterframework.ws</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>resultText</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_NILLABLE>X</IFR_NILLABLE>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>RESULT_TEXT</R3_NAME>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZEIT9_ADMIN_ACTION_RESULT</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>SUCCESSFUL</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>SUCCESSFUL</OBJ_NAME2>
+     <ID>&lt;element&gt; {urn:com.sap.aii.mdt.server.adapterframework.ws}successful &lt;type&gt; AdminActionResult urn:com.sap.aii.mdt.server.adapterframework.ws urn:com.sap.aii.mdt.server.adapterframework.ws</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>successful</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_XSDTYP>boolean</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>SUCCESSFUL</R3_NAME>
+     <R3_DTREF>XSDBOOLEAN</R3_DTREF>
+     <R3_SEQNUM>000003</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZEIT9_ADMIN_ACTION_RESULT</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZEIT9_ADMIN_ACTION_RESULT</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZEIT9_ADMIN_ACTION_RESULT</OBJ_NAME2>
+     <ID>&lt;type&gt; AdminActionResult urn:com.sap.aii.mdt.server.adapterframework.ws urn:com.sap.aii.mdt.server.adapterframework.ws</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>AdminActionResult</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZEIT9_ADMIN_ACTION_RESULT</R3_NAME>
+     <R3_TEXT>Proxy Structure (generated)</R3_TEXT>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>
